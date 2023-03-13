@@ -5,3 +5,6 @@
 - colors
 - graphql
 - typescript
+- nodemon
+- ts-node
+- @tsconfig/node18

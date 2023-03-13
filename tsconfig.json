@@ -1,12 +1,6 @@
 {
   "extends": "@tsconfig/node18/tsconfig.json",
-  "ts-node": {
-    "transpileOnly": true,
-    "files": true,
-    "compilerOptions": {},
-  },
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext"
-  }
+    "module": "ESNext",
+  },
 }
