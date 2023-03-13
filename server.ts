@@ -1,7 +1,8 @@
 import "colors"
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import { typeDefs, resolvers } from './schema.js';
+import { typeDefs } from './schema/type-defs.js';
+import { resolvers } from './schema/resolvers.js';
 
 const server = new ApolloServer({
   typeDefs,
